@@ -1,0 +1,40 @@
+[global_config]
+  borderless = True
+[keybindings]
+[profiles]
+  [[default]]
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    login_shell = True
+    background_image = None
+    background_darkness = 0.28
+    background_type = transparent
+    use_system_font = False
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    font = Meslo LG M DZ for Powerline Bold 11
+  [[black]]
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    font = Meslo LG L for Powerline Bold 10
+    use_system_font = False
+    foreground_color = "#ffffff"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+  [[black]]
+    [[[child0]]]
+      position = 639:0
+      type = Window
+      order = 0
+      parent = ""
+      size = 641, 1061
+    [[[terminal1]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child0
+[plugins]
